@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Assets/StyleSheet/cssReset.css">
+    <link rel="stylesheet" href="Assets/StyleSheet/master.css">
+    <style>
+        .aksfooter {
+            width: 100px;
+            height: 100px;
+            position: fixed;
+            right: 20px;
+            bottom: 20px;
+
+            /* border: 1px solid red; */
+            >div {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+
+                &:nth-of-type(1) {
+                    background-color: rgba(81, 80, 80, 0.66);
+                    border-radius: 56% 44% 45% 55% / 10% 10% 100% 100%;
+                    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+                    animation: anime1 2s alternate 0s infinite;
+
+
+                }
+
+                &:nth-of-type(2) {
+                    border-radius: 50% 50% 45% 55% / 100% 100% 10% 10%;
+                    background-image: url(Assets/Images/aks.png);
+                    background-position: center;
+                    background-size: cover;
+                    animation: anime2 2s alternate 0s infinite;
+
+                }
+            }
+        }
+
+        @keyframes anime1 {
+            to {
+                border-radius: 50% 50% 45% 55% / 100% 100% 10% 10%;
+            }
+        }
+
+        @keyframes anime2 {
+            to {
+                border-radius: 56% 44% 45% 55% / 10% 10% 100% 100%;
+            }
+        }
+    </style>
+
+</head>
+<!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+<body>
+    <div class="popup">
+        <div class="row">
+            <div class="dark"></div>
+            <p>before you enter the site</p>
+            <h2>Are you over 21 years old?</h2>
+            <a href="#" onclick="myclose()">
+                <span>Yes I am</span>
+                <span>Yes I am</span>
+            </a>
+            <a href="" onclick="myclose2()">
+                <span>No I am Not</span>
+                <span>No I am Not</span>
+                
+            </a>
+           
+        </div>
+    </div>
+
+    <header class="header_top">
+        <div class="row">
+            <figure>
+                <img src="Assets/Images/main-logo (1).svg" alt="">
+            </figure>
+            <nav>
+                <div class="row">
+                    <ul>
+                        <li><a class="active" href="">Home</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Our Products</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                    <i>🛒</i>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!--///////////////////////////////////////////////////////////// header_top finished///////////////////////////////////////////////////////////// -->
+    <section class="bottom_header">
+        <div class="row">
+            <article>
+                <div class="row">
+                    <h1>Cannabis for a better life</h1>
+                    <p>We are committed to staying at the forefront of innovation and providing our customers with the
+                        best possible products.</p>
+                    <a href="">
+                        <span>Take a look at our product</span>
+                        <span>Take a look at our product</span>
+                    </a>
+                </div>
+            </article>
+            <figure>
+                <img src="Assets/Images/hero-3.jpg" alt="">
+            </figure>
+        </div>
+    </section>
+    <!-- ////////////////////////////////////the end of bottom header/////////////////////////////////////////////////////////// -->
+    <section class="product">
+        <div class="row">
+            <div>
+                <div class="row">
+                    <h2>Medical use</h2>
+                    <figure>
+                        <img src="Assets/Images/info-3.jpg" alt="">
+                        <figcaption>Nullam accumsan lorem in dui cras varius cras non dolor praesent metus.</figcaption>
+                    </figure>
+                    <a href="">
+                        <span>Look at products</span>
+                        <span>Look at products</span>
+                    </a>
+                </div>
+            </div>
+            <div class="class2">
+                <div class="row">
+                    <h2>Industrial use</h2>
+                    <figure>
+                        <img src="Assets/Images/info-4.jpg" alt="">
+                        <figcaption>Nullam accumsan lorem in dui cras varius cras non dolor praesent metus.</figcaption>
+                    </figure>
+                    <a href="">
+                        <span>Learn about us</span>
+                        <span>Learn about us</span>
+
+                    </a>
+                </div>
+            </div>
+            <div class="class3">
+                <div class="row">
+                    <h2>Recreational use</h2>
+                    <figure>
+                        <img src="Assets/Images/info-5.jpg" alt="">
+                        <figcaption>Nullam accumsan lorem in dui cras varius cras non dolor praesent metus.</figcaption>
+                    </figure>
+                    <a href="">
+                        <span>Read the blog</span>
+                        <span>Read the blog</span>
+
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ///////////////////////////////////////////////////the end of product///////////////////////////////////////////////////////////////// -->
+    <section class="icons">
+        <div class="row">
+            <div>
+                <i>☘</i>
+                <p>Nullam accumsan lorem in dui cras varius cras non dolor praesent metus.</p>
+            </div>
+            <div>
+                <i>☘</i>
+                <p>Nullam accumsan lorem in dui cras varius cras non dolor praesent metus.</p>
+            </div>
+            <div>
+                <i>☘</i>
+                <p>Nullam accumsan lorem in dui cras varius cras non dolor praesent metus.</p>
+            </div>
+            <div>
+                <i>☘</i>
+                <p>Nullam accumsan lorem in dui cras varius cras non dolor praesent metus.</p>
+            </div>
+        </div>
+    </section>
+    <!-- //////////////////////////////////////////////////////////////the end of icons/////////////////////////////////////////////////////////////// -->
+    <section class="pictures">
+        <div class="row">
+            <figure>
+                <img src="Assets/Images/bg-1.jpg" alt="">
+                <div class="dark"></div>
+                <figcaption>Flowers</figcaption>
+            </figure>
+            <figure>
+                <img src="Assets/Images/bg-2.jpg" alt="">
+                <div class="dark"></div>
+                <figcaption>Concentrates</figcaption>
+            </figure>
+            <figure>
+                <img src="Assets/Images/bg-3.jpg" alt="">
+                <div class="dark"></div>
+                <figcaption>Edibles</figcaption>
+            </figure>
+        </div>
+    </section>
+    <!-- /////////////////////////////////////////////////////////////////////the end of pictures////////////////////////////////////////////// -->
+    <section class="CannabisLovers">
+        <div class="row">
+            <div>
+                <div class="row">
+                    <h2>Beautiful products for Cannabis lovers</h2>
+                    <p>Vulputate enim etiam sit eget. Neque nunc, sit interdum turpis. Amet tortor massa turpis urna
+                        elementum dolor.</p>
+                    <a href="">
+                        <span>Look at products</span>
+                        <span>Look at products</span>
+                    </a>
+                </div>
+            </div>
+            <div>
+                <div class="row">
+                    <img src="Assets/Images/info-6.jpg" alt="">
+                    <img src="Assets/Images/info-7.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /////////////////////////////////////////////////////////////the end of cannabis lovers////////////////////////////////////////////// -->
+    <section class="bisquit">
+        <div class="row">
+            <figure>
+                <img src="Assets/Images/bg-5.jpg" alt="">
+                <div class="dark"></div>
+                <figcaption>
+                    <h2>Bake Your Own Edibles</h2>
+                    <p>Whether you are looking for relaxation, relief, or recreation, we have the right product for you.
+                    </p>
+                    <a href="">
+                        <span>Learn about us</span>
+                        <span>Learn about us</span>
+                    </a>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="Assets/Images/bg-4.jpg" alt="">
+                <div class="dark"></div>
+                <figcaption>
+                    <h2>Smoke With Style</h2>
+                    <p>Whether you are looking for relaxation, relief, or recreation, we have the right product for you.
+                    </p>
+                    <a href="">
+                        <span>Learn about us</span>
+                        <span>Learn about us</span>
+                    </a>
+                </figcaption>
+            </figure>
+        </div>
+    </section>
+    <!-- ///////////////////////////////////////the end of bisquit//////////////////////////////////////////////////////////////// -->
+    <section class="bottom_bisquit">
+        <div class="row">
+            <h2>Explore Our Cannabis Collection</h2>
+            <p>Vulputate enim etiam sit eget. Neque nunc, sit interdum turpis. Amet tortor massa turpis urna elementum
+                dolor.</p>
+        </div>
+    </section>
+    <!-- ///////////////////////////////////////////bottom bisquit////////////////////////////////////////////////////////////////////////// -->
+    <section class="green_dream">
+        <div class="row">
+            <div>
+                <div class="row">
+                    <h2>Blissful Bites</h2>
+                    <figure>
+                        <img src="Assets/Images/product-9.jpg" alt="">
+                        <figcaption>
+                            <i>⭐⭐⭐⭐⭐</i>
+                            <p>Quis interdum velit sed sollicitudin nibh ultrices at.</p>
+                        </figcaption>
+                    </figure>
+                    <div class="row">
+                        <div>15g</div>
+                        <div>10g</div>
+                        <div>5g</div>
+                    </div>
+                    <a href="">
+                        <span>Add to cart</span>
+
+                    </a>
+
+                </div>
+            </div>
+            <div>
+                <div class="row">
+                    <h2>Green Dream</h2>
+                    <figure>
+                        <img src="Assets/Images/product-8.jpg" alt="">
+                        <figcaption>
+                            <i>⭐⭐⭐⭐⭐</i>
+                            <p>Quis interdum velit sed sollicitudin nibh ultrices at.</p>
+                        </figcaption>
+                    </figure>
+                    <div class="row">
+                        <div>15g</div>
+                        <div>10g</div>
+                        <div>5g</div>
+                    </div>
+                    <a href="">
+                        <span>Add to cart</span>
+
+                    </a>
+                </div>
+            </div>
+            <div>
+                <div class="row">
+                    <h2>Lemon Haze</h2>
+                    <figure>
+                        <img src="Assets/Images/product-4.jpg" alt="">
+                        <figcaption>
+                            <i>⭐⭐⭐⭐⭐</i>
+                            <p>Quis interdum velit sed sollicitudin nibh ultrices at.</p>
+                        </figcaption>
+                    </figure>
+                    <div class="row">
+                        <div>15g</div>
+                        <div>10g</div>
+                        <div>5g</div>
+                    </div>
+                    <a href="">
+                        <span>Add to cart</span>
+
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ////////////////////////////////////////////////////////end of green dream////////////////////////////////////////////////////// -->
+    <footer class="footer">
+        <div class="row">
+            <div>
+                <figure class="row">
+                    <img src="Assets/Images/main-logo.svg" alt="">
+                </figure>
+                <div class="row">
+                    <ul>
+                        <li>Company</li>
+                        <li>News</li>
+                        <li>Contact</li>
+                    </ul>
+                    <ul>
+                        <li>Privay Policy</li>
+                        <li>Tersm Of Use</li>
+                        <li>Press</li>
+                    </ul>
+                </div>
+                <ul class="row">
+                    <li><i>🚇</i></li>
+                    <li><i>🚟</i></li>
+                    <li><i>🦽</i></li>
+                </ul>
+            </div>
+            <div>
+                <div class="row">
+                    <h2>Subscribe to our newsletter</h2>
+                    <form action="" class="row">
+                        <input type="text" placeholder="Insert your email">
+                        <button>GET STARTED</button>
+                    </form>
+                    <p>Coded by Armin Rafiee Moghaddam</p>
+                </div>
+            </div>
+        </div>
+        
+    </footer>
+    <!-- ///////////////////////////////////// footer /////////////////////////////////////////////////////////////////////// -->
+
+    <div class="aksfooter">
+        <div></div>
+        <div></div>
+    </div>
+</body>
+<script>
+    function myclose(){
+        document.querySelector(".popup").remove()
+    }
+
+</script>
+
+</html>

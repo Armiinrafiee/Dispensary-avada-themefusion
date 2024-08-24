@@ -1,0 +1,38 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    scroll-behavior: smooth;
+    font-size: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    /* height: 1000000000000px; */
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+
+    &:active {
+        color: inherit;
+    }
+
+    &:visited {
+        color: inherit;
+    }
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
